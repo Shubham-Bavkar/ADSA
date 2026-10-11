@@ -185,6 +185,29 @@ Length of LCS: 4
 LCS          : GTAB
 ```
 
+## Exp 9: Dijkstra's Algorithm
+
+**File:** `exp9_dijkstra.py`
+
+**Example run:**
+
+```
+Enter number of vertices: 5
+Enter weighted adjacency matrix (row by row, 0 = no edge):
+0 10 0 5 0
+0 0 1 2 0
+0 0 0 0 4
+0 3 9 0 2
+7 0 6 0 0
+Enter source vertex: 0
+Vertex 	Distance from source
+0 	0
+1 	8
+2 	9
+3 	5
+4 	7
+```
+
 ## Exp 10: Floyd-Warshall Algorithm
 
 **File:** `exp10_floyd_warshall.py`
