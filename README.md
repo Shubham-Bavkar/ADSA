@@ -227,3 +227,44 @@ Shortest distance matrix:
    3    6    0    1
    2    5    7    0
 ```
+
+## Exp 11: N Queen Problem
+
+**File:** `exp11_nqueens.py`
+
+**Example run:**
+
+```
+Enter number of queens (N): 4
+
+Solution 1: [2, 4, 1, 3]
+. Q . .
+. . . Q
+Q . . .
+. . Q .
+
+Solution 2: [3, 1, 4, 2]
+. . Q .
+Q . . .
+. . . Q
+. Q . .
+
+Total solutions: 2
+```
+
+## Exp 12: Hamiltonian Cycle
+
+**File:** `exp12_hamiltonian.py`
+
+**Example run:**
+
+```
+Enter number of vertices: 5
+Enter adjacency matrix (row by row, space separated):
+0 1 0 1 0
+1 0 1 1 1
+0 1 0 0 1
+1 1 0 0 1
+0 1 1 1 0
+Hamiltonian cycle: 0 1 2 4 3 0
+```
